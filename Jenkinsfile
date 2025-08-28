@@ -2,11 +2,14 @@ pipeline {
     agent any
 
     stages {
+        // The initial checkout is done automatically by Jenkins, so this stage isn't needed.
+        /*
         stage('Checkout Code') {
             steps {
                 git branch: 'main', url: 'https://github.com/ShaikMohammedSameer3903/Shoping-web.git'
             }
         }
+        */
 
         stage('Build & Run with Docker Compose') {
             steps {
@@ -21,7 +24,6 @@ pipeline {
 
     post {
         always {
-            // Changed sh to bat for Windows compatibility
             bat 'docker-compose ps'
         }
     }
