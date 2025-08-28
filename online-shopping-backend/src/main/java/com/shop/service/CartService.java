@@ -18,11 +18,7 @@ public class CartService {
     private final CartItemRepository cartRepo;
     private final ProductRepository productRepo;
     private final UserRepository userRepo;
-    public CartService(CartItemRepository cartRepo, ProductRepository productRepo, UserRepository userRepo) {
-        this.cartRepo = cartRepo;
-        this.productRepo = productRepo;
-        this.userRepo = userRepo;
-    }
+    // The manual constructor has been removed.
 
     public List<CartItem> getCart(String email) {
         User user = userRepo.findByEmail(email).orElseThrow();
@@ -55,6 +51,8 @@ public class CartService {
         cartRepo.findByUserAndProduct_Id(user, productId)
                 .ifPresent(cartRepo::delete);
     }
+
+
 
     public void clearCart(String email) {
         User user = userRepo.findByEmail(email).orElseThrow();
