@@ -17,10 +17,7 @@ import java.util.List;
 public class CartController {
 
     private final CartService cartService;
-
-    public CartController(CartService cartService) {
-        this.cartService = cartService;
-    }
+    // The manual constructor has been removed.
 
     @GetMapping
     public List<CartItem> getCart(@AuthenticationPrincipal UserDetails ud) {
