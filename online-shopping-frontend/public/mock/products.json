@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 2999,
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1518443952247-7a3d6b3f63a2?q=80&w=1200&auto=format&fit=crop",
+    "description": "Comfortable over-ear wireless headphones with noise isolation and 30h battery life."
+  },
+  {
+    "id": 2,
+    "name": "Smartwatch Pro",
+    "price": 6999,
+    "category": "Wearables",
+    "imageUrl": "https://images.unsplash.com/photo-1516117172878-fd2c41f4a759?q=80&w=1200&auto=format&fit=crop",
+    "description": "Fitness tracking, heart rate monitoring, and notifications on your wrist."
+  },
+  {
+    "id": 3,
+    "name": "4K Action Camera",
+    "price": 9499,
+    "category": "Cameras",
+    "imageUrl": "https://images.unsplash.com/photo-1519183071298-a2962be96f83?q=80&w=1200&auto=format&fit=crop",
+    "description": "Rugged camera for adventures with 4K60fps and waterproof case."
+  },
+  {
+    "id": 4,
+    "name": "Gaming Mouse",
+    "price": 1999,
+    "category": "Accessories",
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop",
+    "description": "Ergonomic design with customizable DPI and programmable buttons."
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Speaker",
+    "price": 2499,
+    "category": "Audio",
+    "imageUrl": "https://images.unsplash.com/photo-1490376840453-5f616fbebe5b?q=80&w=1200&auto=format&fit=crop",
+    "description": "Portable speaker with rich bass and 12h playtime."
+  },
+  {
+    "id": 6,
+    "name": "Laptop Backpack",
+    "price": 1499,
+    "category": "Bags",
+    "imageUrl": "https://images.unsplash.com/photo-1599940824399-b87987ceb72f?q=80&w=1200&auto=format&fit=crop",
+    "description": "Water-resistant backpack with dedicated 15.6\u201d laptop sleeve."
+  },
+  {
+    "id": 7,
+    "name": "Running Shoes",
+    "price": 3299,
+    "category": "Footwear",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+    "description": "Lightweight shoes with breathable mesh and responsive cushioning."
+  },
+  {
+    "id": 8,
+    "name": "DSLR Prime Lens",
+    "price": 11999,
+    "category": "Cameras",
+    "imageUrl": "https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?q=80&w=1200&auto=format&fit=crop",
+    "description": "Sharp 50mm prime for portraits with wide f/1.8 aperture."
+  },
+  {
+    "id": 9,
+    "name": "Mechanical Keyboard",
+    "price": 4599,
+    "category": "Accessories",
+    "imageUrl": "https://images.unsplash.com/photo-1519150268069-c094cfc0b3c8?q=80&w=1200&auto=format&fit=crop",
+    "description": "Tactile switches, RGB lighting, and compact 75% layout."
+  },
+  {
+    "id": 10,
+    "name": "32\" 2K Monitor",
+    "price": 17999,
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1518691952589-33d821db2e4a?q=80&w=1200&auto=format&fit=crop",
+    "description": "Crisp 2K IPS display with thin bezels and adjustable stand."
+  }
+]
